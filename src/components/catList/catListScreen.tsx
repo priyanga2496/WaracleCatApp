@@ -63,7 +63,7 @@ const styles = StyleSheet.create({
     height: 150,
     borderRadius: 10,
     resizeMode: 'cover',
-    marginTop:10
+    marginTop:20
   },
   favouriteButton: {
     position: 'absolute',
