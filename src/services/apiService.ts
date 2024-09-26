@@ -2,8 +2,7 @@
 import axios from 'axios';
 import Config from 'react-native-config';
 const API_KEY = Config.API_KEY;
-const BASE_URL =Config.BASE_URL
-console.log(Config)
+const BASE_URL ="https://api.thecatapi.com/v1";
 const apiService = {
   fetchImages: async (limit: number = 10, page: number = 0) => {
     const response = await axios.get(`${BASE_URL}/images`, {
